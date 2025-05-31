@@ -23,10 +23,10 @@ public abstract class Cetakan {
         System.out.println("Volume          : " + volume);
         System.out.println("Luas permukaan  : " + luasPermukaan);
         System.out.println("Massa           : " + massa);
-        double massaKg = massa / 1000.0;
+        double massaKg = massa / 1000;
         System.out.println("Massa dalam kg  : " + massaKg);
         int beratKg = (int) Math.ceil(massaKg); // Pembulatan ke atas
-        int biaya = beratKg * 10000; // Biaya per kg
+        int biaya = beratKg * 2000; // Biaya per kg
         System.out.println("Biaya kirim     : Rp" + biaya);
     }
 }
